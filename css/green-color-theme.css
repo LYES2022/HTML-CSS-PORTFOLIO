@@ -1,0 +1,120 @@
+:root {
+    --firstColor: #161416;
+    --secondColor: #FF2F40;
+    --thirdColor: #232123;
+    --fourColor: #FF6307;
+    --paragrapheColor: #ffffff7d;
+    --greenColor: #2FA582;
+    --blueColor: #1A53B7;
+    --orangeColor: #FF3BB9;
+}
+.portfolio-home .container .atlas h3::before, 
+.portfolio-home .container .atlas h3::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+}
+.portfolio-home .container .atlas h3::before {
+    right: 0;
+    top: 3px;
+    border-top: 5px solid var(--greenColor);
+    border-right: 5px solid var(--greenColor);
+
+}
+.portfolio-home .container .atlas h3::after {
+    border-left: 5px solid var(--greenColor);
+    border-bottom: 5px solid var(--greenColor);
+    left: 0;
+    bottom: 10px;
+}
+.portfolio-home .container .atlas h3::before,
+.portfolio-home .container .atlas h3::after {
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+.portfolio-home .info h2 span {
+    color: var(--greenColor);
+}
+.portfolio-home .container .atlas ul li.active,
+ .portfolio-home .container .atlas ul li a.active {
+color: var(--greenColor);
+}
+.portfolio-home .container .atlas ul li::after {
+    background-color: var(--greenColor);
+}
+.portfolio-home .container .port-content .info button {
+    background-color: var(--greenColor);
+}
+
+/* for image ******************* */
+
+.portfolio-home .container .port-content .image span.left {
+    left: 0;
+    top: -10px;
+    border-top: 10px solid var(--greenColor);
+    border-left: 10px solid var(--greenColor);
+}
+.portfolio-home .container .port-content .image span.right {
+    right: 0;
+    bottom: -10px;
+    border-bottom: 10px solid var(--greenColor);
+    border-right: 10px solid var(--greenColor);
+}
+/* start about */
+
+.content-one.about h3 span {
+    color: var(--greenColor);
+}
+.formation .education .info::before, 
+.formation .education .info::after {
+    background-color: var(--greenColor);
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+.content-one.about .about-content .user-content .botons button,
+.content-one.about .about-content .skils .prog-holder .prog span {
+    background-color: var(--greenColor);
+}
+.content-one.contact .contact-content .icons i {
+    color: var(--greenColor);
+ }
+.content-one h2:not(.nadjari):before, .content-one h2:not(.nadjari)::after {
+    background-color: var(--greenColor);
+}
+/* start services */
+.content-one.services .services-content .card i {
+    color: var(--greenColor);
+}
+.content-one.services .services-content .card .icon:hover {
+    background-color: var(--greenColor);
+}
+.content-one.services .services-content .card .icon:hover i {
+    color: white;
+    }
+/* end services */
+/* start portfolio */
+.content-one.portfolio .portfolio-content .work .work-info {
+    background-color: rgb(47 165 130 / 55%);
+}
+/* end portfolio */
+/* start contact */
+.content-one.contact .contact-content .inf h3,
+.content-one.contact .contact-content .contact-icon .box i {
+    color: var(--greenColor);
+}
+.contact button[type = "submit"] {
+    background-color: var(--greenColor);
+}
+.contact form input.one:focus,
+.contact form input[placeholder = "subject"]:focus,
+.contact form textarea:focus {
+    box-shadow: 0px 0px 2px 1px var(--greenColor);
+}
+/* end contact */

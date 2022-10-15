@@ -1,0 +1,112 @@
+:root {
+    --firstColor: #161416;
+    --secondColor: #FF2F40;
+    --thirdColor: #232123;
+    --fourColor: #FF6307;
+    --paragrapheColor: #ffffff7d;
+    --greenColor: #2FA582;
+    --blueColor: #1A53B7;
+    --orangeColor: #FF3BB9;
+    --lightColor: #F4F3FE;
+    --whiteColor: #FEF9FF;
+    --blackColor: #000000a3;
+}
+/********* start home********** */
+.portfolio-home .container .atlas {
+    background-color: var(--whiteColor); 
+    color: black;  
+}
+.portfolio-home .container .atlas ul li a,
+.portfolio-home .container .port-content .info h2,
+.portfolio-home .container .port-content .info.one p {
+    color: black;
+}
+.portfolio-home .container .atlas ul li a {
+    font-weight: 600;
+}
+.portfolio-home .container .port-content .info.one p {
+    font-weight: 500;
+}
+.portfolio-home .container .port-content {
+    background-color: var(--lightColor);
+}
+.portfolio-home .container .port-content .info span.web::before,
+.content-one.about h3 span::before  {
+    background: linear-gradient(90deg,transparent 0% , black 5%, var(--lightColor) 0%);
+}
+/********* end home********** */
+/********* start about********** */
+.content-one h2,
+.content-one.about h3,
+.content-one.about p,
+.content-one.about .about-content .user-content .user ul li,
+.content-one.about .about-content .skils .prog-holder h4 {
+    color: black;
+}
+.content-one.about .about-content .user-content .user ul span,
+.content-one.about .about-content .user-content .user ul li,
+.content-one.about .about-content .skils .prog-holder h4 {
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+.content-one.about .about-content .user-content .user ul li {
+    border-bottom: 2px solid  #00000029;
+}
+.formation .education .slide {
+    background-color: white;
+}
+/* .content-one.about .about-content .user-content .user ul span {
+    color: var(--blackColor);
+} */
+/* .formation .education .info h3 {
+    color: white;
+} */
+.formation .education .info p,
+.formation .education .info span {
+    color: var(--blackColor);
+}
+.formation .education .info span::before {
+    background-color: var(--blackColor);
+}
+.content-one.about .about-content .user-content .user ul span {
+    color: var(--blackColor);
+}
+/********* end about********** */
+/********* start services ********** */
+.content-one.services .services-content .card h3 {
+    color: black;
+}
+.content-one.services .services-content .card p {
+    color: var(--blackColor);
+}
+.content-one.services .services-content .card {
+    background-color: white;
+}
+/********* end services ********** */
+/********* start portfolio ********** */
+.content-one.portfolio h3 {
+    color: black;
+}
+/********* end portfolio ********** */
+/********* start contact ********** */
+.content-one h2,
+.content-one.contact .contact-content .inf p,
+.content-one.contact .contact-content .contact-icon .box h4 {
+    color: black;
+}
+.content-one.contact .contact-content .contact-icon .box span {
+    color: var(--blackColor);
+}
+.contact button[type = "submit"] {
+    border: none;
+}
+.contact form input.one, 
+.contact form input[placeholder = "subject"],
+ .contact form textarea {
+    color: black;
+    background-color: white;
+ }
+/********* end contact ********** */

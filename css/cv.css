@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    /* min-height: 100vh; */
+    /* background-color: var(--firstColor); */
+}
+:root {
+    --marginBotton: 35px;
+    --leftColor: #053347;
+    --blueColor: #19ABE4;
+    --paragrapheColor: #ffffff85;
+    --spanColor: #022236;
+    --rightColor: #2C464B;
+}
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    min-height: 100vh;
+}
+.container .left {
+    flex-basis: 30%;
+    background-color: var(--leftColor);
+    padding: 20px;
+}
+.left .image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+}
+.left .image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.left .lyes {
+    font-size: 19px;
+    margin-bottom: 2px;
+}
+.left h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+.left h2:not(.lyes) {
+    margin: 15px 0 18px;
+}
+.left .name {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--paragrapheColor);
+    margin-bottom: 20px;
+}
+.left .about-me {}
+
+.left .about-me ul li:first-child:before {
+    content: "\f073";
+}
+
+.left .about-me ul li:nth-child(2):before {
+    content: "\f70b";
+}
+.left .about-me ul li:nth-child(3):before {
+    content: "\f024";
+}
+.left .about-me li:last-child:before {
+    content: "\e54e";
+}
+.left span {
+    color: #ffffffbd;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.left .contact {}
+/* .left .contact h2 {
+    font-size: 15px;
+} */
+.left ul {
+    margin-bottom: 20px;
+}
+.left ul li {
+    position: relative;
+    color: #ffffffbd;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.left ul li a {
+    color: #ffffffbd;
+}
+.left ul li::before {
+    position: absolute;
+    color: var(--blueColor);
+    font-family: "font Awesome 6 free";
+    font-weight: 900;
+    left: 0;
+}
+.left .contact ul li:first-child:before {
+    content: "\f095";
+}
+.left .contact ul li:nth-child(2):before {
+    content: "\f0e0";
+}
+.left .contact ul li:nth-child(4) i,
+.left .contact ul li:nth-child(3) i {
+    position: absolute;
+    left: 0;
+    color: var(--blueColor);
+}
+/* .left .contact ul li:nth-child(4):before {
+    content: "\f08c";
+} */
+.left .contact ul li:last-child:before {
+    content: "\f3c5";
+}
+.left .education .info {
+    margin-bottom: 10px;
+}
+.left .education .info span {
+    color: var(--blueColor);
+    font-size: 14px;
+    FONT-WEIGHT: 600;
+}
+.left .education .info h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.left .education .info h5 {
+    color: #ffffffbd;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+}
+.left .languages .prog-holder {
+    margin-bottom: 10px;
+}
+.left .languages .prog-holder h5 {
+    color: #ffffffbd;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.left .languages .prog-holder .prog {
+    width: 100%;
+    height: 7px;
+    background-color: var(--spanColor);
+}
+.left .languages .prog-holder .prog span {
+    background-color: var(--blueColor);
+    display: block;
+    height: 100%;
+}
+
+.container .right {
+    flex-basis: 70%;
+    padding: 30px;
+}
+.container .right h2  {
+    color: var(--rightColor);
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+.container .right .profile  {
+    margin-bottom: var(--marginBotton);
+}
+.container .right p  {
+    line-height: 1.3;
+}
+.container .right p  {
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.container .right .profile p:not(:last-child)  {
+    margin-bottom: 20px;
+}
+.container .right .profile p:last-child  {}
+.container .right .experience  {
+    margin-bottom: var(--marginBotton);
+}
+.container .right .experience .exp-content  {}
+.container .right .experience .exp-content .exp  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.container .right .experience .exp-content .exp .date  {
+    flex-basis: 25%;
+}
+.container .right .experience .exp-content .exp span  {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.container .right .experience .exp-content .exp .inf  {
+    flex-basis: 73%;
+}
+.container .right .experience .exp-content .exp .inf h4  {
+    text-transform: capitalize;
+    color: var(--blueColor);
+    MARGIN-BOTTOM: 5px;
+    text-transform: uppercase;
+}
+.container .right .experience .exp-content .exp .inf p  {
+    /* font-size: 17px;
+    font-weight: 600;
+    color: #333333c7; */
+}
+
+.container .right .profe  {
+    margin-bottom: var(--marginBotton);
+}
+.container .right .profe .skills  {
+    
+}
+.container .right .profe .skills .prog-holder  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.container .right .profe .skills .prog-holder h5  {
+    flex-basis: 25%;
+    /* color: #777; */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.container .right .profe .skills .prog-holder .prog  {
+    flex-basis: 73%;
+    background-color: #eee;
+}
+.container .right .profe .skills .prog-holder .prog span  {
+    background-color: var(--blueColor);
+    height: 100%;
+    display: block;
+}
+.container .right .profe .skills .prog-holder .prog span,
+.container .right .profe .skills .prog-holder .prog  {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 10px;
+}
+.container .right .interest  {
+    margin-bottom: var(--marginBotton);
+}
+.container .right .interest ul  {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.container .right .interest ul li  {
+    position: relative;
+    FONT-SIZE: 15px;
+    font-weight: 500;
+    /* color: #777; */
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.container .right .interest ul li::before  {
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    left: 0;
+    color: var(--blueColor);
+}
+.container .right .interest ul li:first-child:before  {
+    content: "\f11b";
+}
+.container .right .interest ul li:nth-child(2):before  {
+    content: "\f001";
+}
+.container .right .interest ul li:nth-child(3):before  {
+    content: "\f5da";
+}
+.container .right .interest ul li:last-child:before  {
+    content: "\f70c";
+}
+.portfolio {
+    margin-bottom: var(--marginBotton);
+}
+.portfolio .text {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio .text p {
+    flex-basis: 87%;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.portfolio .text a {
+    flex-basis: 13%;
+    text-align: end;
+    text-decoration: underline;
+    color: var(--blueColor);
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+}
+.right .computer-skills {
+    margin-bottom: var(--marginBotton);
+}
+.right .computer-skills h3 {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 25px;
+}
+.right .computer-skills h3::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: var(--leftColor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.right ul {
+    margin: 15px 0;
+}
+.right ul li {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+
+
+

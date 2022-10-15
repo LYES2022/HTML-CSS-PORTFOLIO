@@ -1,0 +1,23 @@
+:root {
+    --firstColor: #161416;
+    --secondColor: #FF2F40;
+    --thirdColor: #232123;
+    --fourColor: #FF6307;
+    --paragrapheColor: #ffffff7d;
+    --greenColor: #2FA582;
+    --blueColor: #1A53B7;
+    --orangeColor: #FF3BB9;
+    --lightColor: #F4F3FE;
+    --whiteColor: #FEF9FF;
+}
+/********* start home********** */
+.portfolio-home .container .atlas {
+    background-color: var(--thirdColor);   
+}
+.portfolio-home .container .port-content {
+    background-color: var(--firstColor);
+}
+/********* end home********** */
+/********* start about********** */
+
+/********* end about********** */
